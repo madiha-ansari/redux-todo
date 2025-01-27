@@ -1,0 +1,41 @@
+.app {
+  font-family: Arial, sans-serif;
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+}
+
+.input-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.input-section input {
+  padding: 10px;
+  width: 70%;
+  margin-right: 10px;
+}
+
+.input-section button {
+  padding: 10px;
+}
+
+.todo-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.todo-list li.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
